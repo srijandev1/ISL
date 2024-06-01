@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    bor
+}
+
+body{
+    background-color: #1E0040;
+    color: #fff;
+    padding: 3rem 4rem;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.circle1{
+    border-radius: 89.5625rem;
+/* background: #406CD7; */
+background: rgba(225, 77, 15, 0.42);
+filter: blur(297px);
+width: 89.5625rem;
+height: 83.25rem;
+position: absolute;
+bottom: -60rem;
+left: 30rem;
+z-index: -1;
+}
+
+.circle2{
+    border-radius: 89.5625rem;
+background: #406CD7;
+/* background: rgba(225, 77, 15, 0.42); */
+filter: blur(297px);
+width: 89.5625rem;
+height: 83.25rem;
+position: absolute;
+bottom: 40rem;
+right: 40rem;
+z-index: -1;
+}
+
+.heading{
+    font-size: 4rem;
+    padding-bottom: 3rem;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.card{
+    width: 23rem;
+    height: 10rem;
+    background-color: #406CD7;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card1{
+    background: linear-gradient(104deg, #E0A60F 0%, rgba(255, 15, 0, 0.00) 138.43%);
+}
+.card2{
+    background: linear-gradient(104deg, #00F0FF 0%, rgba(56, 97, 243, 0.00) 138.43%);
+}
+
+.card3{
+    background: linear-gradient(104deg, #E0A60F -37.8%, #202FBA 101.01%);
+}
+.card4{
+    background: linear-gradient(104deg, #E0A60F 0%, rgba(255, 15, 0, 0.00) 138.43%);
+}
+
+.hed{
+    font-size: 2.5rem;
+}

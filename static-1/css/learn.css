@@ -1,0 +1,23 @@
+
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.practice-isl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-img{
+    background-color: #406CD7;
+    height: 25rem;
+    width: 20rem;
+}
+
+.camera{
+    background-color: #0000;
+    height: 25rem;
+    width: 20rem;
+}

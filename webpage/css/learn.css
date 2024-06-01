@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    bor
+}
+
+body{
+    background-color: #1E0040;
+    color: #fff;
+    padding: 3rem 4rem;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.circle1{
+    border-radius: 89.5625rem;
+    background: rgba(225, 77, 15, 0.42);
+    filter: blur(297px);
+    width: 89.5625rem;
+    height: 83.25rem;
+    position: absolute;
+    bottom: -60rem;
+    left: 30rem;
+    z-index: -1;
+}
+
+.circle2{
+    border-radius: 89.5625rem;
+    background: #406CD7;
+    filter: blur(297px);
+    width: 89.5625rem;
+    height: 83.25rem;
+    position: absolute;
+    bottom: 40rem;
+    right: 40rem;
+    z-index: -1;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.practice-isl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    padding: 2rem 4.3rem;
+}
+.sign-img{
+    background-color: #406CD7;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.camera{
+    width: 40rem;
+    height: 25rem;
+    background-color: #000;
+    border-radius: 20px;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.user-input{
+    border: none;
+    box-shadow: 0 0 0 2px #49BEFF;
+    background: rgba(255, 255, 255, 0.18);
+    height: 3rem;
+    width: 20rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    font-size: 1.1rem;
+    color: #ffff;
+}
+
+.user-input::placeholder{
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffffa4;
+}
+
+.learn-btn{
+    margin-left: 1.5rem;
+    border: none;
+    height: 3rem;
+    width: 7rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #C58916;
+    padding: 0.75rem 2.5rem;
+    border-radius: 10px;
+}
+
+.isl-text{
+    margin-bottom: 4rem;
+}
+
+.sign-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.input-sign, .detect-sign{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
